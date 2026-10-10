@@ -1,42 +1,51 @@
-# Solaray Power Innovations Private Limited Website
+# Solaray Power Innovations Private Limited
 
-A responsive static-style company website with a small Node.js server. It uses the supplied Solaray logo and wordmark images.
+## Installation Instructions
 
-## Files
+This project website includes the company information and logo assets.
 
-- `index.html` — page structure and company information
-- `styles.css` — responsive layout, colours and styling
-- `script.js` — mobile navigation, current year and enquiry form behaviour
-- `server.js` — lightweight Node.js web server
-- `solaray-logo.jpg` — supplied circular logo
-- `solaray-wordmark.jpg` — supplied company wordmark
+### Run the website locally
 
-## Run locally
-
-1. Install Node.js (version 18 or newer recommended).
-2. Extract this ZIP file.
-3. Open a terminal in the extracted folder.
+1. Extract the complete website ZIP.
+2. Install Node.js from https://nodejs.org/ (Node.js 18 or newer recommended).
+3. Open a terminal in the extracted project folder.
 4. Run:
 
    ```bash
    node server.js
    ```
 
-5. Open `http://localhost:3000` in your browser.
+5. Open http://localhost:3000 in your browser.
 
-You can also open `index.html` directly, although running the server is recommended.
+## Company Information
 
-## Enquiry form
+**Company:** Solaray Power Innovations Private Limited
 
-The form validates the required fields in the browser and opens WhatsApp with a prefilled message to **+91 93664 95875**. The visitor must review and send the message in WhatsApp. This demo does not collect, store, or transmit form submissions to a website database.
+**Address:**  
+South Barjala, Agartala Airport Road, Opposite HP Petrol Pump,  
+Bhati Abhoynagar, Agartala, Tripura 799002.
 
-## Before publishing
+**Phone numbers:**
+- +91 93664 95875
+- +91 94364 52537
 
-- Verify company details, contact numbers, address, service descriptions and opening hours.
-- Only publish claims such as government/MNRE/TSECL authorisation if you have verified documentation and permission to make those claims. This template intentionally does not state that approval is verified.
-- Add a privacy policy if you add analytics, tracking or a backend form handler.
-- Deploy the folder to your preferred hosting provider or configure the Node server on a supported host.
+**Business hours:**  
+Monday–Saturday: 9:00 AM–6:00 PM  
+Sunday: Closed
 
-## Customisation
+## Services
 
-Update the content in `index.html`, the colours in `styles.css`, and the WhatsApp number in `script.js` if the company confirms a different enquiry number.
+- Residential solar
+- Commercial solar
+- Installation and service enquiries
+
+## Logo Assets
+
+- `solaray-logo.jpg` — circular company logo
+- `solaray-wordmark.jpg` — company wordmark
+
+Keep these image files in the same project folder as `index.html` so the website can display them.
+
+## Important Note
+
+Please verify all company details and any government/MNRE/TSECL authorisation claims before publishing the website publicly.
